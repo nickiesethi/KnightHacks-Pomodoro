@@ -1,7 +1,7 @@
 from flask import Flask
 from endpoint import endpoint
 import openai
-openai.api_key = "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"
+openai.api_key = "KEY REDACTED FOR SECURITY"
 
 def chat(prompt): 
     # Create completion object request
